@@ -1,3 +1,4 @@
+import Login from "./components/Login";
 
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
 
   return (
     <>
-<p className="h-4 text-2xl">Hello</p>
+      <Login />
     </>
   )
 }
